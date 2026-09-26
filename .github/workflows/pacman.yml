@@ -1,0 +1,36 @@
+# Pac-Man game played on the contribution graph of my work account
+# (@sirajshaik-code). Runs daily and on the "Run workflow" button; the SVGs are
+# published to the `output` branch and embedded in README.md.
+
+name: Generate Pac-Man contribution graph
+
+on:
+  schedule:
+    - cron: "23 1 * * *"   # daily at 01:23 UTC (06:53 IST)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pacman
+  cancel-in-progress: true
+
+jobs:
+  pacman:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: abozanona/pacman-contribution-graph@v5.0.0
+        with:
+          github_user_name: sirajshaik-code
+          games: pacman
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: update Pac-Man contribution graph"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
