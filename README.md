@@ -13,9 +13,10 @@
 
 ### About me
 
-- Product engineer at **Juspay**, on a real-time collaboration and ticketing platform; payment-gateway integrations before that
-- Built a self-serve Slack migration engine, ticket auto-assignment, and CI/CD security gates (Trivy, gitleaks)
-- I like systems that are fast, safe and boring to run
+- 👋 I'm Siraj, a product engineer at **Juspay** in Bengaluru
+- I enjoy building things people use every day, and making them feel instant
+- Off the clock, I still enjoy a good LeetCode contest
+- Curious about LLM agents, developer tooling and distributed systems
 
 ### Highlights
 
