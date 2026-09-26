@@ -4,10 +4,13 @@
   <img alt="Siraj-786's GitHub profile" src="dark_mode.svg" />
 </picture>
 
-### Work account
+### Work at Juspay
 
-Most of my day-to-day engineering happens on my work GitHub account,
-[@sirajshaik-code](https://github.com/sirajshaik-code) (Juspay). Its activity over the last year:
+Most of my work at Juspay lives in private Bitbucket repositories, so it doesn't show in the
+GitHub stats above. Since March 2025: **100+ merged pull requests across 11 company repositories**.
+
+My work GitHub account, [@sirajshaik-code](https://github.com/sirajshaik-code), covers the rest.
+Its activity over the last year:
 
 <a href="https://github.com/sirajshaik-code"><img alt="Contribution graph of @sirajshaik-code" src="https://ghchart.rshah.org/40c463/sirajshaik-code" width="100%" /></a>
 
